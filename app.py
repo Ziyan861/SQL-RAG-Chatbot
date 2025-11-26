@@ -33,7 +33,7 @@ collection = "full_pg_dump"
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # === Vanna Setup ===
-vn = VannaDefault(model="md59", api_key="45a3a57d9f7b4f50aaeac648d519e0f6")
+vn = VannaDefault(model="md59", api_key="")#enter your api key here
 vn.connect_to_postgres(
     host="localhost",
     port=5432,
