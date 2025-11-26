@@ -39,7 +39,7 @@ vn.connect_to_postgres(
     port=5432,
     dbname="idris_db",
     user="postgres",
-    password="whatever787"
+    password=""#add your password here
 )
 vn.allow_llm_to_see_data = True
 
